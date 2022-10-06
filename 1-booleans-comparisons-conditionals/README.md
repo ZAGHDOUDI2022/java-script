@@ -9,35 +9,37 @@
 #### Comparison Operators
 
 1. Type the two boolean values -- `true` and `false` -- into your console.
+true
+false
 
 2. Use the console to accomplish the following:
 
-    + Write an expression using `>` that will evaluate to `false`
-    + Write an expression using `>` that will evaluate to `true`
-    + Write an expression using `<` that will evaluate to `false`
-    + Write an expression using `<` that will evaluate to `true`
-    + Write an expression using two numbers and `===` that will evaluate to `true`
-    + Write an expression using two numbers and `===` that will evaluate to `false`
-    + Write an expression using two strings and `===` that will evaluate to `true`
-    + Write an expression using two strings and `===` that will evaluate to `false`
+    + Write an expression using `>` that will evaluate to `false` 5 > 8
+    + Write an expression using `>` that will evaluate to `true` 8 > 5
+    + Write an expression using `<` that will evaluate to `false` 8 < 5
+    + Write an expression using `<` that will evaluate to `true` 5 < 8
+    + Write an expression using two numbers and `===` that will evaluate to `true` 8 === 8
+    + Write an expression using two numbers and `===` that will evaluate to `false` 7 === 8
+    + Write an expression using two strings and `===` that will evaluate to `true` '2' === '2'
+    + Write an expression using two strings and `===` that will evaluate to `false` '2' === 'a'
 
 3. Fill in the `???` with the following operators or values to make the statements
    output the expected Boolean value.
 
    ```js
-   12 ??? 78
+   12 < 78
    // => true
-
-   24 ??? 16
+   
+   24 < 16
    // => false
 
-   45 !== ???
+   45 !== 2
    // => true
 
-   "45" ??? 45
+   "45" === 45
    // => false
 
-   "6" ??? "six"
+   "6" !== "six"
    // => true
    ```
 
@@ -82,22 +84,22 @@
    output the expected Boolean value.
 
    ```js
-   106 ??? 12
+   106 < 12
    // => false
 
-   "wiz" ??? "wiz"
+   "wiz" === "wiz"
    // => true
 
-   7 * 7  ??? 49
+   7 * 7  === 49
    // => true
 
-   12 ??? (24 / 2)
+   12 !== (24 / 2)
    // => false
 
-   (20 % 2) <= ???
+   (20 % 2) <= 0
    // => true
 
-   (9 / 3) + (5 * 5) === ???
+   (9 / 3) + (5 * 5) === 28
    // => true
    ```
 
