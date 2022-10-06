@@ -34,7 +34,7 @@
 5. Try the following expressions in the console:
 
    ```js
-   6 % 2
+   6 % 2 
    42 % 10
    5 % 2
    6 % 3
@@ -44,6 +44,7 @@
 
    What is the significance of the result? How does the `%` (modulus) operator
    work?
+Modulo calculator finds a mod b, the remainder when a is divided by b. The modulo operation returns the remainder in division of 2 positive or negative
 
 6. Try the following:
 
