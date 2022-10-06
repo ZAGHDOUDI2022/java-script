@@ -12,21 +12,26 @@
 
    ```js
    var "animal" = "monkey";  var animal = 'monkey'
-   var "monkey" = animal; var "monkey = animal;
-   var x= 15;
-   var y =10;
-   var var = "huh?";
-   var true = false;
-   var isTenEven = 10 % 2 = 0;
+   var "monkey" = animal; var monkey = 'animal';
+   var x= 15; var x= 15;
+   var y =10; var y =10;
+   var var = "huh?"; var vr = "huh?";
+   var true = false;  var name = false; 
+   var isTenEven = 10 % 2 = 0; var isTenEven = 10 % 2;
    ```
 
 2. Perform the following in the console:
 
    + Create a variable `firstName` and assign your first name to it.
+   var firstname = 'mahdi'
    + Create another variable, `lastName`, and assign your last name to it.
+    var lastname = "zaghdoudi"
    + Have a middle name? If so, repeat the process.
+   var middlename ='mahdi zaghdoudi'
    + Now, create a variable `fullName` and assign your full name to it by using
      the above variables.
+    var fullname = firstname + " " + " " + middlename + " " + " " + lastname 
+     
 
 
 3. For each of the following code blocks, **use a whiteboard (or a piece of paper)** to reason about
@@ -38,14 +43,14 @@
    ```js
    var x = 5;
    x + 10;
-   x; // => ???
+   x; // => 15
    ```
 
    ```js
    var x = 17;
    x = (x + 1) / 2;
    x * 4;
-   x; // => ???
+   x; // => 36
    ```
 
    ```js
@@ -53,7 +58,7 @@
    var y = 20;
    x = y;
    y = y + 7;
-   x; // => ???
+   x; // => 27
    ```
 
    ```js
@@ -62,7 +67,7 @@
    x = (x * 4) - 3;
    x + 17;
    x = x + y;
-   x; // => ???
+   x; // => 42
    ```
 
 4. Write a function called `counter` that, when invoked, always returns a number
